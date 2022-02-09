@@ -1,1 +1,63 @@
-
+.container {
+  width: auto;
+  height: auto;
+}
+.row {
+  display: block;
+  width: auto;
+}
+.yellow,
+.red,
+.blue {
+  display: flex;
+}
+.yellow .content {
+  height: 200px;
+  background-color: yellow;
+  margin: 10px;
+}
+.red .content {
+  height: 200px;
+  background-color: rgb(247, 46, 46);
+  margin: 10px;
+}
+.blue .content {
+  background-color: rgb(39, 39, 235);
+  height: 200px;
+  margin: 10px;
+}
+@media screen and (min-width: 1024px) {
+  .yellow .content {
+    flex: 1 1 auto;
+  }
+  .red .content {
+    flex: 1 1 auto;
+  }
+  .blue .content {
+    flex: 1 1 auto;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .yellow .content {
+    flex: 1 1 auto;
+  }
+  .red .content {
+    flex: 1 1 auto;
+  }
+  .blue {
+    flex: 1 1 auto;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .yellow {
+    flex-direction: column;
+  }
+  .red .content {
+    flex: 1 1 auto;
+  }
+  .blue {
+    flex: 1 1 auto;
+    flex-direction: column;
+  }
+}
