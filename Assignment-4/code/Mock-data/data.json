@@ -1,0 +1,28 @@
+{"user":
+  [
+    {
+      "name": "Siva",
+      "location": "Bengaluru",
+      "likes": 564,
+      "description": "Kick start your career",
+      "PostImage": "https://image.shutterstock.com/image-photo/picture-beautiful-view-birds-600w-1836263689.jpg",
+      "date": "23 Feb 2022"
+    },
+    {
+      "name": "Neeraj",
+      "location": "Pune",
+      "likes": 1030,
+      "description": "Sample Description",
+      "PostImage": "https://image.shutterstock.com/image-illustration/oil-portrait-painting-multicolored-tones-600w-1922080322.jpg",
+      "date": "23 Feb 2022"
+    },
+    {
+      "name": "Rahul",
+      "location": "Hyderabad",
+      "likes": 5030,
+      "description": "Sample Description for Post",
+      "PostImage": "https://image.shutterstock.com/image-illustration/fluorite-oil-painting-conceptual-abstract-600w-2106831392.jpg",
+      "date": "23 Feb 2022"
+    }
+  ]
+}
