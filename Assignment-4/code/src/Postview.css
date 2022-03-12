@@ -1,11 +1,92 @@
-.site-container{
-  text-align: center;
+.head {
+  border: 2px solid grey;
 }
-html {
-  font-size: 14px;
+.logo,
+.camera,
+.name {
+  display: inline-block;
 }
-body {
-  line-height: 1.5;
+.logo {
+  margin-left: 100px;
+}
+.camera {
+  float: right;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+.name {
   color: black;
-  margin:0;
-} 
+  font: normal normal normal 65px/71px Palatino;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 100;
+}
+.post-info {
+  width: 800px;
+  height: 700px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 10px;
+  opacity: 1;
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+.name-info {
+  margin: 20px;
+  display: block;
+}
+.profile-location {
+  opacity: 0.4;
+  margin: 3px;
+  font-size: 20px;
+}
+.name {
+  margin: 3px;
+  font-size: 30px;
+}
+.more-icon {
+  width: 32px;
+  height: 8px;
+  position: relative;
+  top: -40px;
+  float: right;
+  margin-right: 20px;
+}
+.profile-image {
+  width: 800px;
+  height: 400px;
+}
+.image-like {
+  width: 32px;
+  height: 32px;
+  margin: 10px;
+}
+.share {
+  width: 32px;
+  height: 32px;
+  margin: 10px;
+}
+.date {
+  margin: 20px;
+  float: right;
+  width: 100px;
+  font: normal normal normal 20px/24px Verdana;
+  color: #000000;
+  opacity: 0.6;
+  font-size: 15px;
+}
+.like {
+  margin: 10px;
+  font: normal normal normal 20px/24px Verdana;
+  color: #707070;
+}
+.description {
+  margin: 10px;
+  text-align: left;
+  font: normal normal bold 28px/34px Helvetica;
+  color: black;
+}
